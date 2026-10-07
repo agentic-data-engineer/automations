@@ -1,6 +1,6 @@
-# Episode 1: An AI Agent Built My Data Product. I Made Every Call.
+# Episode 1: I Let an AI Agent Build a Data Product. Here's What I Learned.
 
-Video: https://youtu.be/ZiYj7FPptzA
+Video: https://youtu.be/m9YRoMvB3TU
 
 The whole build in about a minute: a coding assistant takes a hospital-claims data build on Databricks
 through requirements, design, development, testing and a dry run. Erum sets the intent, makes the
