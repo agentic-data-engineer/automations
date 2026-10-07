@@ -1,6 +1,6 @@
 # How it was built and checked
 
-Every figure here is checked by an episode's claims checker
+Every figure here is checked by a video's claims checker
 before it appears on screen.
 
 The idea is **See it sooner**: ask for something, see it built, review it, ask for changes and
@@ -14,7 +14,7 @@ not needed: the list below is what a real delivery still needs people for.
 <!-- disclosed: what it took -->
 ## What it took me
 
-These are my numbers for Build 1, on synthetic data, while I was learning. They are not a benchmark, and
+These are my numbers for the claims recovery workbench, on synthetic data, while I was learning. They are not a benchmark, and
 your numbers will differ with your setup, your data and how many times you go back and forth.
 
 **Elapsed time, by phase.** Measured from my first prompt in a phase to the phase sign-off, using the
@@ -57,5 +57,5 @@ making the videos.
 - Expected answers for every test case were locked in git before any code existed.
 - 16 bugs were planted on purpose; the tests caught all 16.
 - A second AI (Codex) reviewed the build independently; its 5 findings were fixed.
-- Every mistake the AI made is logged and shown in the episodes.
+- Every mistake the AI made is logged and shown in the videos.
 - Erum approved or redirected the work at every phase gate, and signed off all 18 acceptance criteria.

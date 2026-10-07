@@ -4,7 +4,7 @@ Companion material for the YouTube channel **The Agentic Data Engineer**: my aut
 assistants, shared as I learn. This is a notebook, not a course: what I asked for, what got built, the
 catch, and what I learned. If you would do it differently, open a Discussion; that is how I learn.
 
-Build 1 follows one build from requirements to a dry run on Databricks: a workbench that finds denied
+The first build, the **claims recovery workbench**, goes from requirements to a dry run on Databricks: a tool that finds denied
 and underpaid hospital claims and shows the evidence behind each one. All data is synthetic: no real
 patients, payers or money.
 
@@ -19,7 +19,7 @@ This is a look at what the tool can do. It is not a benchmark, and it is not a r
 | [Tools](tools.md) | What was used for the build and for the videos |
 | [FAQ](faq.md) | Answers to common questions |
 | [Glossary](glossary.md) | Hospital billing and data terms in plain language |
-| [Episode 1](season-01/episode-01.md) | What the episode shows, its prompts and its gates |
+| [The whole build: what I learned](claims-recovery-workbench/video-01.md) | What the video shows, its prompts and its gates |
 
 The build's own code is not published here.
 

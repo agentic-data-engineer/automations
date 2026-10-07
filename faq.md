@@ -19,7 +19,7 @@ build, with what they include, are in [method.md](method.md#what-it-took-me). Th
 Claude Code built it; Codex reviewed it independently. Erum directed every phase and approved every gate.
 
 **Did the AI make mistakes?**
-Yes, and they are logged. Each episode shows one, in the segment "The catch", with how it was caught.
+Yes, and they are logged. Each video shows one, in the segment "The catch", with how it was caught.
 
 **Does this mean you don't need a team?**
 No. The series shows what the tool can do, not that people can be removed. Someone still sets the intent, decides the trade-offs and signs off. The AI

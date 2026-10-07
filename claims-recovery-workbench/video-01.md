@@ -1,4 +1,4 @@
-# Episode 1: I Let an AI Agent Build a Data Product. Here's What I Learned.
+# I Let an AI Agent Build a Data Product. Here's What I Learned.
 
 Video: https://youtu.be/m9YRoMvB3TU
 
