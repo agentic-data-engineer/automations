@@ -7,7 +7,7 @@ No. Every claim, payer, rate and dollar is made up. No real patients, payers or 
 
 **Can I see the code or the repo?**
 Not at this time: the repository is private. What is shared: every prompt Erum gave
-([prompt-pack.md](prompt-pack.md)), how it was built and checked ([method.md](method.md)) and the tools
+([prompts.md](prompts.md)), how it was built and checked ([method.md](method.md)) and the tools
 ([tools.md](tools.md)).
 
 **How long would this take a normal team?**

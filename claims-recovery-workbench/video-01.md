@@ -17,7 +17,7 @@ Two of the prompts shown on screen, exactly as typed:
 > What about a claim that's short by exactly one dollar?
 
 The second one became a test case before any code existed. All the prompts are in
-[the prompt pack](../prompt-pack.md).
+[the prompt pack](prompts.md).
 
 ## The gates
 
