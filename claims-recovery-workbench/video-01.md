@@ -28,8 +28,8 @@ The second one became a test case before any code existed. All the prompts are i
 
 ## Still needs people
 
-What a real delivery still needs a team for: data owners and real data, testing by business users,
-engineers for production, security review, scale testing.
+What a real delivery still needs a team for: subject matter experts to confirm the rules, testing by
+business users, engineers for production, security review, scale testing.
 
 ## Your turn
 
