@@ -19,6 +19,10 @@ The narrator in the videos, Helena, is an AI voice. B-roll and the illustrated a
 All data is synthetic: no real patients, payers or money. Nothing here is sponsored; tools are named
 because they were used.
 
+Databricks is a trademark of Databricks, Inc. Other product names are trademarks of their owners. This
+channel and repository are independent and not affiliated with or endorsed by Databricks or any other
+company named here.
+
 ## License and privacy
 
 Text in this repository is licensed under [CC BY 4.0](LICENSE): share and adapt it, with credit to

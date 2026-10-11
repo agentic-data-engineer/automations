@@ -1,8 +1,8 @@
 # I Let an AI Agent Build a Data Product. Here's What I Learned.
 
-Video: https://youtu.be/m9YRoMvB3TU
+Video: https://youtu.be/nZ6PNhWxxeE
 
-The whole build in about a minute: a coding assistant takes a hospital-claims data build on Databricks
+The whole build in under two minutes: a coding assistant takes a hospital-claims data build on Databricks
 through requirements, design, development, testing and a dry run. Erum sets the intent, makes the
 calls and signs off. The assistant builds, tests and keeps the evidence.
 

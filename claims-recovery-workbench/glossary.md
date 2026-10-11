@@ -33,6 +33,7 @@ Plain-language terms used in the series. US healthcare billing terms; the build 
 
 | Term | Meaning |
 | --- | --- |
+| Databricks | A cloud platform companies use to store and analyze their data. Here it holds the raw files, runs the pipelines and hosts the dashboard. A trademark of Databricks, Inc.; this series is independent of it |
 | Bronze, silver, gold | The medallion layers: raw data as it landed, cleaned and joined data, and business-ready tables |
 | Pipeline | Code that moves data through the layers; here, Spark Declarative Pipelines on Databricks |
 | Unity Catalog | Databricks' layer for organizing data and controlling who can see it |
