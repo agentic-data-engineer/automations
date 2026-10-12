@@ -1,23 +1,35 @@
-# I Let an AI Agent Build a Data Product. Here's What I Learned.
+# An AI Built My Databricks Data Product. I Approved Every Step That Mattered.
 
-Video: https://youtu.be/nZ6PNhWxxeE
+Video: https://youtu.be/Gj97TFcHS7g
 
-The whole build in under two minutes: a coding assistant takes a hospital-claims data build on Databricks
-through requirements, design, development, testing and a dry run. Erum sets the intent, makes the
-calls and signs off. The assistant builds, tests and keeps the evidence.
+The whole build: an AI coding assistant takes a hospital-claims data product on Databricks through
+requirements, design, build, testing and a dry run. Erum describes what she wants, sees it working, and
+pushes back. She approved every step that mattered.
 
-## See it sooner
+## The loop
 
-Ask for it. See it. Review it. Change it. See it again. And the gates stay.
+Every phase runs the same loop: ask, see it, push back, ask again. Then a gate before the next phase.
 
 Two of the prompts shown on screen, exactly as typed:
 
-> ranks them by dollars at risk so staff work the biggest first
+> Run the design phase.
 
-> What about a claim that's short by exactly one dollar?
+> Also are you creating SDP pipelines?
 
-The second one became a test case before any code existed. All the prompts are in
-[the prompt pack](prompts.md).
+The second one changed the whole design: the AI compared the options and chose Spark Declarative
+Pipelines. All the prompts are in [the prompt pack](prompts.md).
+
+## What got built
+
+- The expected answers, locked before any code
+- Two pipelines and twenty-three tables, across the raw, cleaned and ready-to-use layers
+- A ranked worklist of denied and underpaid claims
+
+## What the second AI caught
+
+A blank prior authorization, the insurer's OK before treatment, was read as a real value. So a correct
+denial would have gone to staff as money to chase. A new test failed first, then the fix made it pass:
+`nullif(trim(prior_auth_number), '')`.
 
 ## The gates
 
@@ -26,11 +38,11 @@ The second one became a test case before any code existed. All the prompts are i
 - A second AI's review findings fixed and re-tested
 - 18 of 18 acceptance criteria signed off
 
-## Still needs people
+## What this is, and isn't
 
-What a real delivery still needs a team for: subject matter experts to confirm the rules, testing by
-business users, engineers for production, security review, scale testing.
+A learning build, on made-up data. It's not production. A real delivery would still need data engineers,
+the billing team, and security.
 
 ## Your turn
 
-What would you poke holes in first? Leave a comment on the video, or open a discussion here.
+What would you have pushed back on? Leave a comment on the video, or open a discussion here.

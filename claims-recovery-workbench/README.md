@@ -15,4 +15,6 @@ replacement for a team.
 
 ## Videos
 
-- [The whole build: what I learned](video-01.md): what the video shows, its prompts and its gates
+- [The whole build: every step that mattered](video-01.md): what the video shows, its prompts and its gates
+- [Answer key first: requirements before any code](video-02.md): what the video shows, its prompts and its gates
+- [One question changed the design](video-03.md): what the video shows, its prompts and its gates
