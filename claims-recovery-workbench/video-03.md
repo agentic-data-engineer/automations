@@ -1,6 +1,6 @@
 # One Question Changed the AI's Whole Design
 
-Video: https://youtu.be/NnKPK88Nyqo
+Video: link added when the video is published.
 
 Before building anything, Erum asked the AI one question. It changed the whole design.
 

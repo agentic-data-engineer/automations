@@ -1,6 +1,6 @@
 # I Made the AI Write the Answer Key Before Any Code
 
-Video: https://youtu.be/ig2C0KAuOps
+Video: link added when the video is published.
 
 Before any code, Erum had the AI write the answer key: test cases with their expected results, locked
 in git, so the code is judged against answers it never wrote.
