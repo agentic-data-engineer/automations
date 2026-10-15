@@ -18,3 +18,7 @@ replacement for a team.
 - [The whole build: every step that mattered](video-01.md): what the video shows, its prompts and its gates
 - [Answer key first: requirements before any code](video-02.md): what the video shows, its prompts and its gates
 - [One question changed the design](video-03.md): what the video shows, its prompts and its gates
+- [One word gave the bug away](video-04.md): what the video shows, its prompts and its gates
+- [The top requirement had zero tests](video-05.md): what the video shows, its prompts and its gates
+- [Planted bugs: testing the tests](video-06.md): what the video shows, its prompts and its gates
+- [A second AI checked the first](video-07.md): what the video shows, its prompts and its gates
