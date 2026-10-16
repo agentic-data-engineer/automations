@@ -1,6 +1,6 @@
 # An AI Built My Databricks Data Product. I Approved Every Step That Mattered.
 
-Video: https://youtu.be/XfuCTJpVZoY
+Video: link added when the video is published.
 
 The whole build: an AI coding assistant takes a hospital-claims data product on Databricks through
 requirements, design, build, testing and a dry run. Erum describes what she wants, sees it working, and
