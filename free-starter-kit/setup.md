@@ -9,52 +9,53 @@ kept current by the vendor. The safety steps are part of the setup: they're what
 
 ## 1. An AI coding assistant
 
-Pick one and install it from the vendor's official site. The build in the videos used **Claude Code**
-(Anthropic). Others include Codex, Cursor and Gemini CLI. Check each one's terms and pricing yourself.
+Choose one and install it from the vendor's official site. The build in the videos used **Claude Code**
+(Anthropic), so it's the example used on this page. Others (such as Codex, Cursor and Gemini CLI) have their
+own setup steps. Check your chosen tool's terms and pricing yourself.
 
-## 2. A project folder under version control
+## 2. A project folder with Git
 
-One folder per data product, with git from the start. Git is how you lock decisions: the answer key gets
-its own commit before any code exists, and every phase ends with a commit you approved.
+One folder per data product, with Git from the start. Git records saved versions of your files (commits).
+Save the approved expected test results, your **answer key**, as their own version before any pipeline code
+is written. A commit records a version; it is not a permission lock, so the review is still yours.
 
 ## 3. A sandbox Databricks workspace, never production
 
 - Use a workspace that is separate from anything real, and use **synthetic data only**.
-- Before your first prompt, understand how that workspace is billed and set the spending controls its
-  provider offers. Choosing an account, plan or workspace type, and its costs, is your decision and your
-  responsibility.
+- Before your first prompt, understand how that workspace is billed and check the spending controls its
+  provider offers. An alert is not a hard spending cap. Choosing an account, plan or workspace type, and
+  its costs, is your decision and your responsibility.
 - Never point the AI at a workspace that holds real or production data.
 
-## 4. The Databricks CLI, signed in with a named profile
+## 4. The Databricks CLI and a named profile
 
-Install and sign in by following the Databricks CLI documentation. Use a **named profile** for the
-sandbox. The AI then works through a login you control: it never needs your password, and you can revoke
-access at any time.
+Install the Databricks command-line tool (CLI) and sign in by following the Databricks documentation. A
+**named profile** labels the connection to your sandbox, so you can check which workspace a command targets.
+It does not limit permissions. Sign in yourself, keep credentials out of chat with the AI, and learn how to
+revoke that access.
 
-**The AI can do anything the signed-in account can do.** A single prompt such as "delete all catalogs" is
-possible, and the damage and cost can be large. So:
+**The AI can do anything the signed-in account can do.** A request such as "delete all catalogs" could
+succeed if the assistant's tools and the account's permissions allow it, and the damage and cost can be
+large. So:
 
-- Sign in with an account that has **least privilege**: only the rights this project needs, in this sandbox.
-- Keep destructive and administrative actions (dropping catalogs, schemas or tables, changing permissions,
-  workspace or billing settings) with an **admin, done by hand**, outside the AI's account.
-- Write the same limits into your rules file (step 6). Rules guide the AI; account permissions enforce them.
-  You need both.
+- Sign in with an account that has **least privilege**: only the access this project needs, in this sandbox.
+- Keep deletion and administrative work (dropping catalogs, schemas or tables, changing permissions,
+  workspace or billing settings) outside that account's permissions, with an **admin acting by hand**.
+- Write the same limits into your rules file (step 6). Written rules guide the AI; account permissions and
+  tool restrictions enforce boundaries. You need both.
 
-## 5. The Databricks AI Dev Kit
+## 5. Databricks skills for your assistant
 
-Databricks' own toolkit for AI coding assistants, published by Databricks on GitHub
-(`databricks-solutions/ai-dev-kit`). It adds skills with current Databricks patterns (Spark Declarative
-Pipelines, AI/BI dashboards, Unity Catalog, bundles and more) and an optional MCP server. In the claims
-build, its **Spark Declarative Pipelines** and **AI/BI dashboards** skills shaped the pipelines and the
-dashboard.
-
-Install it by following its own README, and read its license first (at the time of writing, the
-Databricks License: use only with Databricks services; not open source).
+Skills are written instructions that help an AI assistant work with a platform. The claims build loaded two
+skills from Databricks' AI Dev Kit (`databricks-solutions/ai-dev-kit` on GitHub): **Spark Declarative
+Pipelines** and **AI/BI dashboards**. For a new setup, follow the vendor's current guide: the AI Dev Kit's
+README now points to **Databricks AI Tools**. Read the license of whatever you install before you use it.
 
 ## 6. A rules file
 
-The assistant reads it at the start of every session, so your rules hold without repeating them. For
-Claude Code it's `CLAUDE.md` in the project folder; Codex reads `AGENTS.md`. An example to adapt:
+A project rules file states what the assistant must and must not do. For Claude Code it's `CLAUDE.md` in the
+project folder; other assistants use their own file (Codex reads `AGENTS.md`). Check that the assistant has
+actually loaded your rules before you rely on them. An example to adapt:
 
 ```markdown
 # Rules for this project
@@ -73,23 +74,26 @@ Claude Code it's `CLAUDE.md` in the project folder; Codex reads `AGENTS.md`. An 
 - Never run a command against all objects at once (for example, every catalog or every table).
 ```
 
-These rules are guidance the AI follows, not a lock. The account's permissions are what actually prevent
-an action, so set both.
+These rules are guidance the AI follows, not a lock. Account permissions and tool restrictions are what
+actually prevent an action, so set both.
 
-## 7. Permission prompts on
+## 7. Permission settings
 
-Keep the assistant in its default mode, where it asks before running commands or changing files. Read and
-approve each action yourself until you trust the pattern.
+Review the assistant's permission settings. Avoid any mode that bypasses approval. Some actions may already
+be allowed by your settings, so don't assume every command or file change will trigger a prompt. Read each
+request, check what it targets, and only then approve it.
 
 ## 8. The gate skill
 
-Copy the `answer-key-first` folder from this kit into your project's `.claude/skills/` folder. It makes
-the AI define what "right" looks like, and stop for your approval, before any code exists.
+Copy the `answer-key-first` folder from this kit into your project's `.claude/skills/` folder (Claude Code;
+other assistants have their own location). It instructs the assistant to draft expected results and stop for
+your approval before pipeline code. Check the answers yourself: the skill is guidance, not an enforcement lock.
 
 ## 9. A second reviewer
 
 A different AI, used only to review the finished build against a written brief (the build in the videos
-used Codex). The builder can't see its own blind spots.
+used Codex, which returned five findings). The builder can't see its own blind spots. A second AI adds a
+check; it doesn't replace your review.
 
 ## 10. Your first prompt
 

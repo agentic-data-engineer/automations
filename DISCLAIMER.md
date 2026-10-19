@@ -37,7 +37,8 @@ You are responsible for reviewing and approving what an AI assistant does, and f
   permissions or billing) for an administrator acting by hand;
 - state those limits in your project's rules.
 
-Written rules guide an AI assistant; they do not enforce anything. Only account permissions do.
+Written rules guide an AI assistant; they do not enforce anything. Only account permissions and tool
+restrictions do.
 
 ## Third parties
 
