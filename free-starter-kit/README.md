@@ -10,6 +10,7 @@ sign-off.
 
 | File | What it gives you | Time to use |
 | --- | --- | --- |
+| [setup.md](setup.md) | Never used an AI coding assistant? Everything to install and set up before your first prompt, safely | Once |
 | [one-rule-checklist.md](one-rule-checklist.md) | One page: the five phases, and the questions you answer before signing each one off | Print it |
 | [starter-prompts.md](starter-prompts.md) | Five prompts, one per phase, that make the AI stop at your gates | Copy and paste |
 | [skills/answer-key-first/](skills/answer-key-first/) | A skill for your AI assistant: write the right answers before any code exists | One folder to copy |
@@ -17,6 +18,7 @@ sign-off.
 
 ## Start here
 
+0. New to AI coding assistants? Start with `setup.md`.
 1. Read the checklist.
 2. Copy the `answer-key-first` folder into your project's `.claude/skills/`.
 3. Paste the requirements prompt from `starter-prompts.md` with your own business problem.
