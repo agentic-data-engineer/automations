@@ -15,10 +15,8 @@ replacement for a team.
 
 ## Videos
 
-- [The whole build: every step that mattered](video-01.md): what the video shows, its prompts and its gates
-- [Answer key first: requirements before any code](video-02.md): what the video shows, its prompts and its gates
-- [One question changed the design](video-03.md): what the video shows, its prompts and its gates
-- [One word gave the bug away](video-04.md): what the video shows, its prompts and its gates
-- [The top requirement had zero tests](video-05.md): what the video shows, its prompts and its gates
-- [Planted bugs: testing the tests](video-06.md): what the video shows, its prompts and its gates
-- [A second AI checked the first](video-07.md): what the video shows, its prompts and its gates
+[An AI Built a Databricks Claims Worklist. Then Came the Review.](https://youtu.be/nMfn3c9JQyE): the whole
+build, phase by phase. Short videos on single moments from it are in the
+[Claims Recovery Workbench playlist](https://www.youtube.com/playlist?list=PLZYZ1UgOQbuc).
+
+The build's requirements and design documents are in [deliverables/](deliverables/).

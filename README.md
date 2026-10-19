@@ -27,6 +27,9 @@ Databricks is a trademark of Databricks, Inc. Other product names are trademarks
 channel and repository are independent and not affiliated with or endorsed by Databricks or any other
 company named here.
 
+Everything here is for education only. You are responsible for any software or services you use, their
+costs, and anything an AI assistant does with your account's access. Read the full [disclaimer](DISCLAIMER.md).
+
 ## License and privacy
 
 Text in this repository is licensed under [CC BY 4.0](LICENSE): share and adapt it, with credit to

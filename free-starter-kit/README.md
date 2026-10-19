@@ -17,7 +17,7 @@ sign-off.
 
 ## Start here
 
-1. Read the checklist (two minutes).
+1. Read the checklist.
 2. Copy the `answer-key-first` folder into your project's `.claude/skills/`.
 3. Paste the requirements prompt from `starter-prompts.md` with your own business problem.
 4. Don't let the AI start design until you've approved the answer key.
@@ -27,6 +27,10 @@ sign-off.
 A demo of a method, built on synthetic data. It is not production guidance, a benchmark, or a
 replacement for your team's reviews: security, subject matter experts and business users are still yours
 to involve.
+
+## Disclaimer
+
+For education only; not professional, legal or financial advice. You are responsible for any software or services you use, their costs, and anything an AI assistant does with your account's access: use a non-production environment and least-privilege accounts. Not affiliated with any company named. Read the full disclaimer: https://github.com/agentic-data-engineer/automations/blob/main/DISCLAIMER.md
 
 ## Want the whole method?
 
