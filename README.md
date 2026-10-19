@@ -4,6 +4,10 @@ Companion material for the YouTube channel **Agentic Data Engineer**: my automat
 assistants, shared as I learn. This is a notebook, not a course: what I asked for, what got built, the
 catch, and what I learned. If you would do it differently, open a Discussion; that is how I learn.
 
+## Free starter kit
+
+**[Download free-starter-kit.zip](https://github.com/agentic-data-engineer/automations/releases/latest/download/free-starter-kit.zip)**, or browse it in [free-starter-kit/](free-starter-kit/README.md): the one rule checklist, starter prompts for every phase, the answer-key-first skill and a one-page worked example. No signup.
+
 ## Builds
 
 Each build has its own folder: the prompts word for word, how it was checked, what it took me, and a
