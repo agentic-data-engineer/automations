@@ -1,0 +1,19 @@
+Category,Product,Units,Revenue,Category_Fill_Note
+Hardware,Desk lamp,40,1200,
+Hardware,Monitor stand,25,1875,FILLED: Hardware (from row 2)
+Hardware,Cable kit,60,900,FILLED: Hardware (from row 2)
+,Subtotal,125,3975,Not filled: subtotal row (totals match the Hardware rows above)
+,,,,Not filled: blank separator row
+Software,Notes app,300,2700,
+Software,Backup plan,120,2400,FILLED: Software (from row 7)
+Software,Photo editor,80,3200,FILLED: Software (from row 7)
+,Subtotal,500,8300,Not filled: subtotal row (totals match the Software rows above)
+,,,,Not filled: blank separator row
+,Gift card,15,750,Not filled: falls after the previous subtotal and is in no category subtotal; category unknown
+,,,,Not filled: blank separator row
+Services,Setup visit,12,1440,
+Services,Training hour,30,1800,FILLED: Services (from row 14)
+Services,Extended warranty,18,1080,FILLED: Services (from row 14)
+,Subtotal,60,4320,Not filled: subtotal row (totals match the Services rows above)
+,,,,Not filled: blank separator row
+,Grand Total,700,17345,Not filled: grand total row covers all categories

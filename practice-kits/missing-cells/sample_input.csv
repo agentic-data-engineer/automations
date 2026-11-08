@@ -1,0 +1,19 @@
+Category,Product,Units,Revenue
+Hardware,Desk lamp,40,1200
+,Monitor stand,25,1875
+,Cable kit,60,900
+,Subtotal,125,3975
+,,,
+Software,Notes app,300,2700
+,Backup plan,120,2400
+,Photo editor,80,3200
+,Subtotal,500,8300
+,,,
+,Gift card,15,750
+,,,
+Services,Setup visit,12,1440
+,Training hour,30,1800
+,Extended warranty,18,1080
+,Subtotal,60,4320
+,,,
+,Grand Total,700,17345

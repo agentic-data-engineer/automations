@@ -8,6 +8,10 @@ catch, and what I learned. If you would do it differently, open a Discussion; th
 
 **[Download free-starter-kit.zip](https://github.com/agentic-data-engineer/automations/releases/latest/download/free-starter-kit.zip)**, or browse it in [free-starter-kit/](free-starter-kit/README.md): the one rule checklist, starter prompts for every phase, the answer-key-first skill and a one-page worked example. No signup.
 
+## Practice kits
+
+Try the Shorts yourself: [sample files and exact prompts](practice-kits/).
+
 ## Builds
 
 Each build has its own folder: the prompts word for word, how it was checked, what it took me, and a
