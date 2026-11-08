@@ -5,17 +5,17 @@ C003,Priya Nair,priya nair,Toledo,No,
 C004,Tom O'Brien,Tom  O'BRIEN,Cincinnati,No,
 C005,Anna-Marie Kelly,anna-marie   KELLY,Columbus,No,
 C006,Liam McDonald,liam mcdonald,Dayton,No,
-C007,Sofia de la Cruz,sofia de la cruz,Akron,Yes,Surname particle kept lowercase — confirm customer's preferred capitalization
-C008,"Chen, Wei","Chen, Wei",Toledo,Yes,"Comma format ('Last, First'?) — order left as-is; confirm which part is the surname"
-C009,J. Robinson,j. robinson,Cincinnati,Yes,First name is an initial — full name unknown
+C007,Sofia de la Cruz,sofia de la cruz,Akron,Yes,Surname particle kept lowercase - confirm customer's preferred capitalization
+C008,"Chen, Wei","Chen, Wei",Toledo,Yes,"Comma format ('Last, First'?) - order left as-is; confirm which part is the surname"
+C009,J. Robinson,j. robinson,Cincinnati,Yes,First name is an initial - full name unknown
 C010,Noah Bennett Jr.,noah   bennett jr,Columbus,No,
 C011,Emma Watts,EMMA WATTS,Dayton,No,
 C012,Daniel Kim,  daniel  kim,Akron,No,
-C013,Ola,ola,Toledo,Yes,Single name only — surname may be missing
-C014,Hannah van der Berg,hannah van der berg,Cincinnati,Yes,Surname particle kept lowercase — confirm customer's preferred capitalization
+C013,Ola,ola,Toledo,Yes,Single name only - surname may be missing
+C014,Hannah van der Berg,hannah van der berg,Cincinnati,Yes,Surname particle kept lowercase - confirm customer's preferred capitalization
 C015,Rajesh Patel,rajesh   PATEL  ,Columbus,No,
-C016,Lucy Mackenzie,lucy  mACKENZIE,Dayton,Yes,Mac- surname — could be 'MacKenzie' or 'Mackenzie'; capitalized as 'Mackenzie'
+C016,Lucy Mackenzie,lucy  mACKENZIE,Dayton,Yes,Mac- surname - could be 'MacKenzie' or 'Mackenzie'; capitalized as 'Mackenzie'
 C017,,,Akron,Yes,Name is missing
 C018,Ben O'Neill,ben  o'neill,Toledo,No,
 C019,Grace Lee,GRACE   lee,Cincinnati,No,
-C020,"Smith, Kate","Smith, Kate",Columbus,Yes,"Comma format ('Last, First'?) — order left as-is; confirm which part is the surname"
+C020,"Smith, Kate","Smith, Kate",Columbus,Yes,"Comma format ('Last, First'?) - order left as-is; confirm which part is the surname"

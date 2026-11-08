@@ -2,7 +2,7 @@
 
 **The problem.** A report has blank category cells. Filling every blank from the row above puts values on rows they do not belong to.
 
-**Tool and access.** Claude.ai in a desktop browser, Pro plan, model shown as Opus 5.5 Medium, tested 2026-11-08. File upload and Claude.ai's code execution were used. The free plan is not tested.
+**Tool and access.** Claude.ai in a desktop browser, Pro plan, model shown as Opus 5.5 Medium, tested. File upload and Claude.ai's code execution were used. The free plan is not tested.
 
 ## Steps
 
@@ -29,3 +29,5 @@
 - The orange "Software?" cell is an illustration of what a fill-down would guess, labelled on screen. It is not AI output.
 - The tested prompt asks for a note on every fill and to leave other blanks alone. It does not use the word flag.
 - AI output can differ between runs. Check it before relying on it.
+
+In expected_output.csv, dashes in Claude's review notes were changed to hyphens for this page. Nothing else in the file was changed.

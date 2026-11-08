@@ -2,7 +2,7 @@
 
 **The problem.** A customer list has names in every style: all caps, stray spaces, Mc and O' names, surname-first entries, an initial, a single name and a blank. A careless fix silently breaks names.
 
-**Tool and access.** Claude.ai in a desktop browser, Pro plan, model shown as Opus 5.5 Medium, tested 2026-11-08. File upload and Claude.ai's code execution were used. The free plan is not tested.
+**Tool and access.** Claude.ai in a desktop browser, Pro plan, model shown as Opus 5.5 Medium, tested. File upload and Claude.ai's code execution were used. The free plan is not tested.
 
 ## Steps
 
@@ -29,3 +29,5 @@
 - Three names differ from the key (C008, C016, C020). All three are flagged for a person.
 - The tested prompt does not ask Claude to split names, so the Short does not claim splitting.
 - AI output can differ between runs. Check it before relying on it.
+
+In expected_output.csv, dashes in Claude's review notes were changed to hyphens for this page. Nothing else in the file was changed.

@@ -4,9 +4,9 @@
 | --- | --- |
 | Data | Synthetic, written for this channel. No real customers |
 | Prompt | Written for this channel |
-| Output | Claude.ai, recorded run 2026-11-08 |
+| Output | Claude.ai, recorded run |
 | Privacy | No personal data in these files |
-| Permission to share | Approved by the channel owner for publication, 2026-11-08 |
+| Permission to share | Approved by the channel owner for publication |
 
 ## Where this lives
 

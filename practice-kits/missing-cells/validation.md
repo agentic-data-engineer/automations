@@ -1,6 +1,6 @@
 # Validation
 
-Recomputed 2026-11-08 by verify.py and verify_claims.py from sample_input.csv, expected_output.csv and the private answer key.
+Recomputed by verify.py and verify_claims.py from sample_input.csv, expected_output.csv and the private answer key.
 
 | ID | Claim | Result |
 | --- | --- | --- |
